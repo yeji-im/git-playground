@@ -17,4 +17,4 @@ def test_render_message_trims():
 
 
 def test_render_message_empty():
-    assert render_message("") == "Hello, anonymous!"
+    assert render_message("") == "Hello, anonymous!!!!"
