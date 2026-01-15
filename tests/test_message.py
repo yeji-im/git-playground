@@ -12,8 +12,8 @@ def test_render_message_normal():
     assert render_message("Yeji") == "Hello, Yeji!"
 
 
-# def test_render_message_trims():
-#     assert render_message("  Yeji  ") == "Hello, Yeji!"
+def test_render_message_trims():
+    assert render_message("  Yeji  ") == "Hello, Yeji!"
 
 
 def test_render_message_empty():
